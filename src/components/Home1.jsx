@@ -60,6 +60,7 @@ export default function Home1() {
         </Typography>
       </Box>
       <Button
+      href="/inscricoes"
         variant="contained"
         sx={{
           width: "35em",

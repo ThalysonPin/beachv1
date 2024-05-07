@@ -5,6 +5,7 @@ import Vip from './pages/Vip'
 import Sobre from './pages/Sobre'
 import Torneios from './pages/Torneios'
 import Contato from './pages/Contato'
+import Subscribe from './pages/Subscribe'
 
 export default function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export default function AppRoutes() {
             <Route path='/sobre' element={<Sobre/>}/>
             <Route path='/torneios' element={<Torneios/>}/>
             <Route path='/contato' element={<Contato/>}/>
+            <Route path='/inscricoes' element={<Subscribe/>}/>
         </Routes>
     </Router>
   )
