@@ -57,6 +57,7 @@ export default function Topbar() {
             }}
           >
             <Button
+              href="/Sobre"
               variant="text"
               sx={{
                 color: "black",
@@ -68,6 +69,7 @@ export default function Topbar() {
               Informações
             </Button>
             <Button
+              href="/"
               variant="text"
               sx={{
                 color: "black",
@@ -76,7 +78,7 @@ export default function Topbar() {
                 fontSize: "1.15rem",
               }}
             >
-              Torneios
+              Inscrição
             </Button>
             <Button
               href="/contato"

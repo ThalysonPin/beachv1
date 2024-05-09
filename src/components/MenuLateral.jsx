@@ -25,7 +25,7 @@ export default function MenuLateral() {
       <List>
         <ListItem key="Informações" disablePadding>
           {/* <Link to="/vip"> */}
-          <ListItemButton href="/informacoes">
+          <ListItemButton href="/Sobre">
             <ListItemIcon>
               <InboxIcon />
             </ListItemIcon>
@@ -36,11 +36,11 @@ export default function MenuLateral() {
 
         {/* <Link to="/"> */}
         <ListItem key="Torneios" disablePadding>
-          <ListItemButton href="/torneios">
+          <ListItemButton href="/">
             <ListItemIcon>
               <InboxIcon />
             </ListItemIcon>
-            <ListItemText primary="Torneios" />
+            <ListItemText primary="Inscrição" />
           </ListItemButton>
         </ListItem>
         {/* </Link> */}
@@ -55,14 +55,7 @@ export default function MenuLateral() {
         </ListItem>
         {/* </Link> */}
         {/* <Link to="/"> */}
-        <ListItem key="Vip" disablePadding>
-          <ListItemButton href="/vip">
-            <ListItemIcon>
-              <InboxIcon />
-            </ListItemIcon>
-            <ListItemText primary="Vip" />
-          </ListItemButton>
-        </ListItem>
+
         {/* </Link> */}
       </List>
       <Divider />
