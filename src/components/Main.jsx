@@ -32,7 +32,6 @@ export default function Main() {
           <Home3 />
 
           {/* HOME 4 */}
-          <Home4 />
         </div>
       )}
     </>
