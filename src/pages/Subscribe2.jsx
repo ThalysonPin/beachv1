@@ -368,9 +368,10 @@ export default function App() {
             onChange={handleCidade}
           >
             <MenuItem value="BT1000CG1">BT1000 - Campo Grande</MenuItem>
-            <MenuItem value="BT500" disabled>BT500 - em breve</MenuItem>
-            <MenuItem value="BT1000CG" disabled>BT1000 Campo Grande - em breve</MenuItem>
             <MenuItem value="BT500RB" disabled>BT500 Rio Brilhante - em breve</MenuItem>
+            <MenuItem value="BT1000CG2">BT1000 - Campo Grande</MenuItem>
+            <MenuItem value="BT500" disabled>BT500 - em breve</MenuItem>
+            <MenuItem value="BT1000CG" disabled>BT1000 Ponta Porã - em breve</MenuItem>
 
           </Select>
         </FormControl>

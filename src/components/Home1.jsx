@@ -102,7 +102,7 @@ export default function Home1() {
           },
         }}
       >
-        Inscreva-se para o circuito
+        Clique aqui para se inscrever
       </Button>
 
       <Dialog open={open} onClose={handleClose}>
