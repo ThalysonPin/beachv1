@@ -367,7 +367,7 @@ export default function App() {
             label="Etapa"
             onChange={handleCidade}
           >
-            <MenuItem value="TRL1000">BT1000 - Três Lagoas</MenuItem>
+            <MenuItem value="BT1000CG1">BT1000 - Campo Grande</MenuItem>
             <MenuItem value="BT500" disabled>BT500 - em breve</MenuItem>
             <MenuItem value="BT1000CG" disabled>BT1000 Campo Grande - em breve</MenuItem>
             <MenuItem value="BT500RB" disabled>BT500 Rio Brilhante - em breve</MenuItem>

@@ -107,7 +107,7 @@ export default function Home1() {
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle textAlign={"center"}>
-          Circuito BT500 - Campo Grande
+          Circuito BT1000 - Campo Grande
         </DialogTitle>
         <DialogContent dividers={scroll === "paper"}>
           <DialogContentText>
@@ -118,9 +118,8 @@ export default function Home1() {
                 textAlign: "center",
               }}
             >
-              <Typography>Data: 31/05/2024 a 02/06/2024</Typography>
-              <Typography>Local: Arena Tereré - Campo Grande</Typography>
-              <Typography>Inscrição: Até 29/05/2024</Typography>
+              <Typography>Data: 26/07/2024 a 28/07/2024</Typography>
+              <Typography>Local: Golfit Arena - Campo Grande</Typography>
             </Box>
             <Paper elevation={3} sx={{ marginTop: 1, padding: 1 }}>
               <Typography variant="h5" gutterBottom>
@@ -128,7 +127,7 @@ export default function Home1() {
               </Typography>
               <Typography paragraph>
                 <b>
-                  As inscrições do Circuito são INDIVIDUAIS e não em duplas.
+                  As inscrições do Circuito são INDIVIDUAIS.
                 </b>
               </Typography>
               <Typography paragraph>
